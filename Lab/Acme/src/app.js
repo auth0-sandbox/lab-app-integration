@@ -74,7 +74,7 @@ app.get("/", async (req, res) => {
 })
 
 // Show expenses, requires authentication
-app.get("/expenses", async (req, res, next) => {
+app.get("/expenses", async (req, res) => {
     res.render("expenses", {
         path: req.path,
         user: req.oidc && req.oidc.user,
