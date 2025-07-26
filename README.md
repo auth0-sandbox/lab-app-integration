@@ -78,7 +78,7 @@ This should be a satisfactory working environment if your display supports 1920x
 
     <div style="text-align: center;"><img src="./.assets/images/application.png" /></div>
 
-    NOTE: The application has not been integrated yet with the Auth0 tenant; the *Login* link will not work properly,
+    NOTE: The application has not been integrated yet with the Auth0 tenant; the *Log in* link will not work properly,
     and clicking on it will produce a 404 page not found.
 
 ## Part 2: Registering the Acme application with the Auth0 tenant
@@ -288,7 +288,7 @@ and the CLIENT_SECRET and set the corresponding properties in the .env file:
 
     <div style="text-align: center;"><img src="./.assets/images/application.png" /></div>
 
-1. Click the login button at the top right.
+1. Click the *Log in* link at the top right.
 The authorization request will fail, click the link at the bottom left of the page
 to see the error details:
 
@@ -328,7 +328,7 @@ Paste the copied URL there too and then append */callback* to the end of it:
 1. On the error page that Auth0 displayed click the back button and return to the
 application landing page.
 
-1. Click the login button at the top right again, and follow the *Sign up* link
+1. Click the *Log in* link at the top right again, and follow the *Sign up* link
     to create a new user.
 
     <div style="text-align: center;"><img src="./.assets/images/auth0-application-login.png" /></div>
@@ -367,7 +367,7 @@ or the *Tokens* menu item in the header bar to see the user details:
 
     NOTE: This is one of two forms of handling authorization, also known as "immediate login": when the user attempts to access a secured resource
     take them through authorization.
-    The other option is "deferred login", where a message is displayed stating the resource is protected and asking them to login.
+    The other option is "deferred login", where a message is displayed stating the resource is protected and asking them to log in.
 
 1. Stop the application with red square in the Run/Debug toolbar in VS Code:
 
