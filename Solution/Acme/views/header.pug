@@ -1,0 +1,24 @@
+ul(class='navigation' role='navigation')
+    li.logo
+        a(href='/')
+            img(src='/images/acme-financial-management.png')
+    li
+        a(href='/') Home
+    li
+        a(href='/expenses') Expenses
+        if user
+        li 
+            a(href='/tokens') Tokens
+    li.spacer
+    if user
+        li
+            a(href='/logout') Logout
+        li.profile
+            a(href='/tokens')
+                img.picture(src=user.picture)
+    else
+        li
+            a(href=`/login?returnTo=${path}`) Login
+        li.profile
+            a(href='/tokens')
+                img(src='/images/profile.png')
