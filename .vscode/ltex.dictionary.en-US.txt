@@ -25,3 +25,12 @@ vite
 ManagementClient
 getTokenManager
 init
+Backchannel
+CIBA
+dotnet
+requiresAuth
+requiresAuth
+idpLogout
+authorizationParams
+requiresAuth
+funky-codespace

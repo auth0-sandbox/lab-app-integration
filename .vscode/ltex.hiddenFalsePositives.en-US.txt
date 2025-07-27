@@ -71,3 +71,9 @@
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QEverything worked up to this point, but there will be an issue if the getClientAccessToken is used at the top level of server.js before the main thread is released.\\E$"}
 {"rule":"A_INFINITIVE","sentence":"^\\QThe await makes sure the issuer has been set in the TokenManager before the program continues.\\E$"}
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QNow if getClientToken is used at the top-level of the program the issuer it needs is available.\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qexpress-openid-connect is built as a CommonJS module, not an ES6 (JavaScript 2016) module.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QUse \"will.notspend@oldmoneyis.us\" and set the password to \"Tra!nme4321\":\\E$"}
+{"rule":"POSSESSIVE_APOSTROPHE","sentence":"^\\QOnce you land on the Home page, you can click the username on the page or the Tokens menu item in the header bar to see the user details:\\E$"}
+{"rule":"POSSESSIVE_APOSTROPHE","sentence":"^\\QClick on the Expenses menu link in the header.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QAuthenticate as will.notspend@oldmoneyis.us with the password Tra!nme4321.\\E$"}
+{"rule":"SIGN_UP_HYPHEN","sentence":"^\\QThe user will.notspend@oldmoneyis.us was not created using the Sign up link\nThe password was mistyped during account creation\nCheck the Auth0 tenant log for failed authorization requests and reasons why\\E$"}

@@ -171,7 +171,7 @@ and the CLIENT_SECRET and set the corresponding properties in the .env file:
 ## Part 4: Integrating authentication into the Express application
 
 1. In the terminal window opened in the Acme folder
-    add the *epxress-oopenid-connect* (the Auth0 Express SDK) package
+    add the Auth0 Express SDK package
     to the project with the following *npm* command:
     ```bash
     $ npm install express-openid-connect
@@ -328,7 +328,7 @@ Paste the copied URL there too and then append */callback* to the end of it:
 1. On the error page that Auth0 displayed click the back button and return to the
 application landing page.
 
-1. Click the *Log in* link at the top right again, and follow the *Sign up* link
+1. Click the *Log in* link at the top right again, and follow the *Sign-up* link
     to create a new user.
 
     <div style="text-align: center;"><img src="./.assets/images/auth0-application-login.png" /></div>
@@ -379,3 +379,20 @@ or the *Tokens* menu item in the header bar to see the user details:
 If you are working inside a GitHub Codespace you may close and delete the Codespace.
 If you are inside a Docker Container you may delete the docker container, and the image that
 launched it.
+
+## Troubleshooting
+
+1. Check the DEBUG CONSOLE is VS Code for messages from the application
+1. If the application launches in the browser, check the JavaScript console under Web Developer tools for messages about bad URLs
+
+### No login screen
+
+1. The callback URL is not registered in the Auth0 application
+1. The CLIENT_ID or ISSUER_BASE_URL are not set correctly
+1. Check the Auth0 tenant log for issues
+
+### Cannot log in
+
+1. The user *will.notspend@oldmoneyis.us* was not created using the *Sign up* link
+1. The password was mistyped during account creation
+1. Check the Auth0 tenant log for failed authorization requests and reasons why
