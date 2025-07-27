@@ -52,7 +52,7 @@ This should be a satisfactory working environment if your display supports 1920x
 
 1. At the top of the Run/Debug panel there is a drop-down box
     with a list of *launch configurations*.
-    From this list select *Launch ACME FM*.
+    From this list select *Launch Acme FM*.
 
 1. To the left of the launch configurations dropdown click the run button.
     If there are any errors, fix them and try to launch it again.  
@@ -90,7 +90,7 @@ If it is already open, go to that tab.
 
 1. Click the large blue button that says *+ Create Application*.
 
-1. name the application *ACME Financial Management*, click on *Regular Web Applications*
+1. Name the application *Acme Financial Management*, click on *Regular Web Applications*
 for the application type, and click the blue *Create* button at the bottom:
 
     <div style="text-align: center;"><img src="./.assets/images/auth0-app-create.png" /></div>

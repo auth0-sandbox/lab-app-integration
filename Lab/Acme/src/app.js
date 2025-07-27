@@ -1,4 +1,4 @@
-// ACME: app.js
+// Acme: app.js
 // Lab: Application Integration
 //
 

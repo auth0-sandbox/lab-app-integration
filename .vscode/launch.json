@@ -4,7 +4,7 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch ACME FM",
+            "name": "Launch Acme FM",
             "cwd": "${workspaceRoot}/Lab/Acme",
             "runtimeExecutable": "nodemon",
             "runtimeArgs": [
@@ -22,7 +22,7 @@
         {
             "name": "Launch All",
             "configurations": [
-                "Launch ACME FM"
+                "Launch Acme FM"
             ]
         }
     ]

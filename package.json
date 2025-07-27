@@ -1,7 +1,7 @@
 {
-    "name": "Auth0 Application Development",
+    "name": "lab-app-integration",
     "version": "1.0.0",
     "scripts": {
-        "start": "code -r ./appdev-workspace.md"
+        "start": "code -r ./README.md"
     }
 }
